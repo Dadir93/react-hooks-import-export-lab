@@ -1,6 +1,13 @@
 const username = "Liza";
 const city = "New York";
 
-const image = "https://i.imgur.com/mV8PQxj.gif";
+const image = "./final.jpeg";
 
 // export all three variables as named exports
+// export { username, city, image };
+
+module.exports = {
+  username,
+  city,
+  image,
+};

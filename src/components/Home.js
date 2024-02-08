@@ -1,4 +1,7 @@
 import React from "react";
+import App from "./App";
+import {username, city} from "../data/user";
+
 
 function Home() {
   return (
@@ -9,3 +12,9 @@ function Home() {
     </div>
   );
 }
+
+// Exporting variables using CommonJS module syntax
+
+
+
+export default Home;
